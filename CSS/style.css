@@ -44,7 +44,17 @@ body {
     color: #fff;
 }
 
-.dark-overlay-1 {
+#home-heading-1-blog {
+    min-height: 200px;
+    background: url('../img/beverage-black-coffee-blur-1235717.jpg') no-repeat center center fixed;
+    background-attachment: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay {
     border-radius: 2px;
     background: rgba(0, 0, 0, 0.2);
 }
@@ -59,15 +69,3 @@ body {
     background: url('../IMG/beverage-black-coffee-blur-1235717.jpg') no-repeat center center fixed;
     background-size: cover;
 }
-
-/* img {
-    position: fixed;
-    width: 100%;
-    height: auto;
-} */
-
-/* #top-pic {
-    margin-top: 100px;
-} */
-
-#video-play a {}
