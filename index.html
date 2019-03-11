@@ -1,226 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Bootstrap</title>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container">
-        <a href="index.html" class="navbar-brand display-5 ">
-          <img src="./IMG/N&T BW.png" height="100" width="100" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="blog.html" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand display-5 ">
+        <!-- <img src="./IMG/N&T BW.png" height="100" width="100" alt="" /> -->
+        <h3>Joshua Hendrix</h3>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">About</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section id="home-heading-1" class="p-5">
-      <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container pt-4">
-              <h1 class="mt-3">Let's get started!</h1>
-              <p class="d-none d-md-block">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tempore incidunt veritatis enim odit soluta eos, unde sequi
-                dignissimos dolorum quo?
-              </p>
-              <br />
-              <br />
-              <a href="#" class="btn btn-warning btn-md">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="home-icons" class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-4 text-center">
-            <i class="fas fa-battery-quarter fa-3x text-center"></i>
-            <h3>Battery getting low?</h3>
-            <p>
-              A cup of coffee will charge your battery to full!
-            </p>
-          </div>
-          <div class="col-md-4 mb-4 text-center">
-            <i class="fas fa-address-card fa-3x text-center"></i>
-            <h3>Your Info</h3>
-            <p>
-              We'd love a way to send you updates!
-            </p>
-          </div>
-          <div class="col-md-4 mb-4 text-center">
-            <i class="fas fa-bible fa-3x text-center"></i>
-            <h3>Let's study</h3>
-            <p>
-              ...“‘Man shall not live by bread alone, but by every word that
-              comes from the mouth of God.’” Matthew 4:4 ESV
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="home-heading" class="p-5">
-      <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container pt-4">
-              <h1>Let's get started!</h1>
-              <p class="d-none d-md-block">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tempore incidunt veritatis enim odit soluta eos, unde sequi
-                dignissimos dolorum quo?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="info" class="py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 align-self-center">
-            <h3>Lorem Ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-              repellat suscipit vel atque assumenda inventore maiores libero
-              vitae quibusdam odit!
-            </p>
-            <a href="contact.html" class="btn btn-outline-primary btn-md"
-              >Contact Us</a
-            >
-          </div>
-          <div class="col-md-6">
-            <img src="img/laptop.png" alt="" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="video-play">
-      <div class="dark-overlay-3">
-        <div class="row">
-          <div class="col">
-            <div class="container p-5">
-              <a
-                href="#"
-                class="video"
-                data-video="https:www.youtube.com/embed/poW9zt_S4Ds"
-                data-toggle="modal"
-                data-target="#videoModal"
-              >
-                <i class="fas fa-play fa-2x"></i>
-              </a>
-              <h1 class="text-light">Worship Video</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer id="main-footer" class="text-center p-4">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p>Copyright &copy; <span id="year"></span> Bootstrap!</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- VIDEO MODAL -->
-
-    <div class="modal fade" id="videoModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button class="close" data-dismiss="modal">
-              <span>&times;</span>
-            </button>
-            <iframe
-              src=""
-              frameborder="0"
-              height="350"
-              width="100%"
-              allowfullscreen
-            ></iframe>
+  <section id="home-heading-1" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-4">
+            <h1 class="mt-3">Welcome!</h1>
+            <!-- <p class="d-none d-md-block">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Tempore incidunt veritatis enim odit soluta eos, unde sequi
+              dignissimos dolorum quo?
+            </p> -->
+            <!-- <br />
+            <br /> -->
+            <!-- <a href="#" class="btn btn-warning btn-md">Learn More</a> -->
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/   umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-battery-quarter fa-3x text-center"></i>
+          <h3>Battery getting low?</h3>
+          <p>
+            Have a cup of coffee!
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-address-card fa-3x text-center"></i>
+          <h3>Your Info</h3>
+          <p>
+            We'd love to send you updates!
+          </p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-bible fa-3x text-center"></i>
+          <h3>Let's study</h3>
+          <p>
+            Matthew 1-12
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script>
-      $('#year').text(new Date().getFullYear());
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-4">
+            <h1>Let's get started!</h1>
+            <p class="d-none d-md-block">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Tempore incidunt veritatis enim odit soluta eos, unde sequi
+              dignissimos dolorum quo?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      $(function() {
-        //Auto play modal video
-        $('.video').click(function() {
-          var theModal = $(this).data('target'),
-            videoSRC = $(this).attr('data-video'),
-            videoSRCauto =
-              videoSRC +
-              '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1autoplay=1';
-          $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function() {
-            $(theModal + ' iframe').attr('src', videoSRC);
-          });
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Lorem Ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+            repellat suscipit vel atque assumenda inventore maiores libero
+            vitae quibusdam odit!
+          </p>
+          <a href="contact.html" class="btn btn-outline-primary btn-md">Contact Us</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/laptop.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-play">
+    <div class="dark-overlay-3">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https:www.youtube.com/embed/poW9zt_S4Ds" data-toggle="modal"
+              data-target="#videoModal">
+              <i class="fas fa-play fa-2x"></i>
+            </a>
+            <h1 class="text-light">Worship Video</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> Bootstrap!</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/   umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('#year').text(new Date().getFullYear());
+
+    $(function () {
+      //Auto play modal video
+      $('.video').click(function () {
+        var theModal = $(this).data('target'),
+          videoSRC = $(this).attr('data-video'),
+          videoSRCauto =
+          videoSRC +
+          '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1autoplay=1';
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
         });
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

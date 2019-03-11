@@ -3,7 +3,7 @@ body {
 }
 
 .navbar .nav-link {
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -22,8 +22,13 @@ body {
     border-left: #444 3px solid;
 }
 
+#home-icons {
+    max-height: 200px;
+}
+
 #home-heading-1 {
-    min-height: 350px;
+    min-height: 250px;
+    max-height: 200px;
     background: url('../img/beverage-black-coffee-blur-1235717.jpg') no-repeat center center fixed;
     background-attachment: center;
     background-repeat: no-repeat;
@@ -54,10 +59,10 @@ body {
     color: #fff;
 }
 
-.dark-overlay {
+/* .dark-overlay {
     border-radius: 2px;
-    background: rgba(0, 0, 0, 0.2);
-}
+    background: rgba(0, 0, 0, 0.5);
+} */
 
 #video-play {
     min-height: 200px;
@@ -68,4 +73,9 @@ body {
 #view {
     background: url('../IMG/beverage-black-coffee-blur-1235717.jpg') no-repeat center center fixed;
     background-size: cover;
+}
+
+#main-footer {
+    background: #000;
+    color: #fff;
 }
